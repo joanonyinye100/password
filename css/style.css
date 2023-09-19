@@ -1,6 +1,9 @@
+*{
+    box-sizing: border-box;
+}
 input{
     margin-bottom: 10px;
-    width: 50%;
+    width: 40%;
     
 }
 body{
@@ -8,7 +11,18 @@ body{
     background-image: url(../images/bac2.webp);
     background-position: center;
     background-size: cover;
+    margin: 0 auto;
+    width: 600px;
+    padding: 20px;
     
+}
+.container{
+    background-color: white;
+    padding: 20px;
+    margin-top: 40px;
+    min-height: 300px;
+    width: 90%;
+    margin-left: 20px;
 }
 button{
     background-color: black;
@@ -16,10 +30,11 @@ button{
     padding: 10px;
     border: none;
     border-radius: 5px;
-    align-items: center;
-    margin-left: 40px;
+    
 }
-.showPassWord{
-    background-image: linear-gradient(brown,black);
+#showPassWord{
+    background-image: linear-gradient( pink, white);
     padding: 5px;
+    margin: 5px;
+    border-radius: 7px;
 }
