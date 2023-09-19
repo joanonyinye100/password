@@ -1,0 +1,25 @@
+input{
+    margin-bottom: 10px;
+    width: 50%;
+    
+}
+body{
+    width: 960px;
+    background-image: url(../images/bac2.webp);
+    background-position: center;
+    background-size: cover;
+    
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    margin-left: 40px;
+}
+.showPassWord{
+    background-image: linear-gradient(brown,black);
+    padding: 5px;
+}
