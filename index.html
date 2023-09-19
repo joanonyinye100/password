@@ -52,7 +52,8 @@
       let txtUserName = document.getElementById("txtUserName");
          let txtPassWord = document.getElementById("txtPassWord");
         let showPassWord = document.getElementById("showPassWord");
-        btnSubmit.addEventListener("click", passWord);
+
+        txtPassWord.addEventListener("input", passWord);
 
         function passWord(e) {
             e.preventDefault();
