@@ -7,22 +7,17 @@ input{
     
 }
 body{
-    width: 960px;
     background-image: url(../images/bac2.webp);
     background-position: center;
     background-size: cover;
-    margin: 0 auto;
-    width: 600px;
-    padding: 20px;
     
 }
 .container{
     background-color: white;
-    padding: 20px;
-    margin-top: 40px;
     min-height: 300px;
     width: 90%;
-    margin-left: 20px;
+    margin: 30px;
+    padding: 20px;
 }
 button{
     background-color: black;
